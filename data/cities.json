@@ -35,30 +35,6 @@
         "lat": "24.996647191799223",
         "lng": "54.99824523925782"
       }
-    },
-    {
-      "id": "4dff",
-      "cityName": "Agdzhabedy",
-      "country": "Azerbaijan",
-      "emoji": "🇦🇿",
-      "date": "2024-03-16T09:12:41.303Z",
-      "notes": "wefws",
-      "position": {
-        "lat": "40.09653433230347",
-        "lng": "47.70263671875001"
-      }
-    },
-    {
-      "id": "2265",
-      "cityName": "Java",
-      "country": "Georgia",
-      "emoji": "🇬🇪",
-      "date": "2024-03-16T09:14:12.880Z",
-      "notes": "dhdh",
-      "position": {
-        "lat": "42.57102787622222",
-        "lng": "44.20898437500001"
-      }
     }
   ]
 }

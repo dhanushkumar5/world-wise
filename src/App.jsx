@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import City from "./components/City";
 import HomePage from "./pages/HomePage";
@@ -18,7 +18,7 @@ export default function App() {
   return (
     <CitiesProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="product" element={<Product />} />
@@ -38,9 +38,9 @@ export default function App() {
               <Route path="countries" element={<CountryList />} />
               <Route path="form" element={<Form />} />
             </Route>
-            {/* <Route path='*' element={<PageNotFound />}/> */}
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </AuthProvider>
     </CitiesProvider>
   );
